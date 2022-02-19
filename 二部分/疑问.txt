@@ -1,0 +1,4 @@
+在我学习时候看到一种threshold的函数但是进行测试发现并不是很可行
+double threshold(InputArray src, OutputArray dst, double thresh, double maxval, int type)
+在这个函数中对于thresh的理解似乎不太一样
+在代码中我运行了不同的数字我觉得应该是选择照片中的当前值的像素点，但是在我查资料时（用别人的数据）和别人所形成的图片有明显区别，导致我无法理解这个值的意思
